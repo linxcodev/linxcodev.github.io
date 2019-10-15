@@ -18,39 +18,6 @@ a {
 	text-decoration: none !important;
 }
 
-/* .about-text {
-	margin: auto;
-}
-
-.about-text p {
-	text-align: left;
-} */
-
-/* .yogs-down{
-	margin: 0 auto;
-	display: block;
-	text-align: center;
-	font-size: 30px;
-	margin-top: 50px;
-	color: white;
-	border-radius: 50%;
-	width: 60px;
-	height: 60px;
-	border: 2px solid white;
-	padding: 15px;
-	cursor: pointer;
-	transition: 0.5s ease;
-	-webkit-transition: 0.5s ease;
-	-ms-transition: 0.5s ease;
-	-o-transition: 0.5s ease;
-	-moz-transition: 0.5s ease;
-} */
-
-/* .yogs-down:hover{
-	background: white;
-	color: #e74c3c;
-} */
-
 /* ===== Header ====== */
 
 header {
@@ -175,9 +142,7 @@ header {
 /* Head */
 
 header .rows {
-	/* background: url('../img/yogs-bg-1.png'); */
 	background-image: linear-gradient(-45deg, #cd0fd8 0%, #3483ff 100%);
-	/* background-repeat: no-repeat; */
 	background-size: cover;
 	display: flex;
 	flex-wrap: wrap;
@@ -222,7 +187,6 @@ header .rows::after {
 }
 
 .head-button {
-	/* background: #462bef; */
 	border: none;
 	padding: 10px 25px;
 	background: white;
@@ -242,12 +206,6 @@ header .rows::after {
   outline: none;
 }
 
-/* .head-button-2 {
-	background: transparent;
-	border: 2px solid white;
-	padding: 7px 25px;
-} */
-
 .head-button:hover {
 	cursor: pointer;
 	box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25);
@@ -260,14 +218,7 @@ header .rows::after {
   -webkit-text-fill-color: white;
 }
 
-/* .head-button-2:hover {
-	background: white;
-	color: #e93544 !important;
-} */
-
-
 a .head-button {
-/* a .head-button-2 { */
 	color: white;
 	font-family: roboto;
 }
@@ -291,7 +242,6 @@ a .head-button {
 		font-size: 12pt;
 	}
 	a .head-button {
-	/* a .head-button-2 { */
 		font-size: 12px;
 	}
 }
@@ -379,7 +329,7 @@ a .head-button {
 	visibility: hidden;
 }
 
-/* = About = */
+/* ======== About ======== */
 
 #about{
 	background-size: cover;
@@ -524,13 +474,6 @@ a .head-button {
 }
 
 /* = Download = */
-
-/* .texture-top {
-	width: 100%;
-	height: 25px;
-	background: url("../img/texture-top.png");
-	position: absolute;
-} */
 
 #download {
 	width: 100%;
@@ -813,7 +756,7 @@ a .head-button {
 	font-size: 27pt;
 }
 
-/* == Contact == */
+/* ====== Contact ====== */
 
 #contact {
 	padding: 60px 0 60px 0;
@@ -866,7 +809,7 @@ footer a:hover {
 	color: white;
 }
 
-/* == Back top == */
+/* ====== Back top ====== */
 .backtotop{
 	display:none
 }
