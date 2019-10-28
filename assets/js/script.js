@@ -28,6 +28,10 @@ jQuery(document).ready(function(){
       duration: 700,
     })
 
+    $('.btn-download').click(function () {
+      alert('Soon...')
+      return false;
+    })
 });
 
 $(function(){
