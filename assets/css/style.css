@@ -135,8 +135,11 @@ header {
 }
 
 .nav-right a:hover{
-	background: white;
-	color: #EA3A42;
+	border: none;
+	cursor: pointer;
+	padding: 13px 20px;
+	box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25);
+	background: linear-gradient(-45deg, #cd0fd8 0%, #3483ff 100%);
 }
 
 /* Head */
@@ -756,11 +759,28 @@ a .head-button {
 	font-size: 27pt;
 }
 
+/* ========== svg ======== */
+#svg {
+	background-color: #f1f1f1;
+	margin-bottom: -1px
+}
+
+.elementor-shape-fill {
+  fill: #817aef
+}
+
+.elementor-shape[data-negative=false].elementor-shape-bottom,
+.elementor-shape[data-negative=true].elementor-shape-top {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 /* ====== Contact ====== */
 
 #contact {
 	padding: 60px 0 60px 0;
-	background-image: linear-gradient(-45deg, #cd0fd8 0%, #3483ff 100%);
+	background: #817aef;
 	color: #FFFFFF;
 	overflow: hidden;
 }
